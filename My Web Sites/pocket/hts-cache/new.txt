@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+22:47:46	23101/23101	---M-Z	-1	error ('Error%20when%20decompressing')	text/html	etag:%2216f82884a309dcf106d69e0f4af06beb-ssl-df%22	https://www.packetlabs.net/	C:/Users/Hilmi%20G%c3%bcler/My%20Web%20Sites/pocket/www.packetlabs.net/index.html	(from )
+22:47:46	72/72	---M--	200	added ('OK')	text/plain	etag:%22c7b59ed38aa98d68bbe84b48602b727a-ssl%22	https://www.packetlabs.net/robots.txt		(from )
