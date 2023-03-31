@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- This calculator is an example of html+css w/javascript contenct. It's not react
+or vue or bootstrap. It requires more Improvements. It's a test subject. Feel free
+to work on it. -->
+<html>
+    <head>
+        <title class="title">Calculator</title>
+
+        <style>
+            .title {
+                font-family: sans-serif;
+                border: solid black;
+                border-width: 1px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="calculator">
+            <label>First Number:</label>
+            <input type="text" id="num1">
+
+            <label>Second Number:</label>
+            <input type="text" id="num2">
+            <!-- JavaScript part, works fine. -->
+            <button onclick="add()">+</button>
+            <button onclick="substract()">-</button>
+            <button onclick="multiply()">*</button>
+            <button onclick="divide()">/</button>
+
+            <div class="result-box">
+                <label>Result: <p id="result"></p> </label>
+            <!-- CSS indexed in HTML file, requires improvements on visuals -->
+                <style>
+                    .result-box {
+                        font-family: sans-serif;
+                        background-color: #fff;
+                        width: fit-content;
+                        color: red;
+                        border: solid black;
+                        border-width: 1px;
+                        height: fit-content;
+                        margin: 10px;
+                    }
+                </style>
+            <style>
+                .calculator {
+                    font-family: sans-serif;
+                    background-color: cyan;
+                    width: 160px;
+                    color:#333;
+                    border: 15px solid green;
+                    padding: 100px;
+                    margin: 30px;
+                }
+            </style>
+            </div>
+            <!-- Path to the script -->
+            <script src="calculator.js"></script>
+        </div>
+    </body>
+</html>

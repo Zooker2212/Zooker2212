@@ -1,0 +1,18 @@
+.navigation {
+    padding-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    background: $color-sidebar-navigation-background;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1303;
+
+    &.open {
+        z-index: 1303;
+        height: 100%;
+        width: 6 * $navigation--width;
+        box-shadow: 0 3px 14px 2px rgba(36, 36, 36, 0.12), 0 8px 10px 1px rgba(36, 36, 36, 0.14),
+            0 5px 5px -3px rgba(36, 36, 36, 0.2);
+    }
